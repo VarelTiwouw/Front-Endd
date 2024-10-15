@@ -1,0 +1,47 @@
+<html>
+    <body>
+    <h1>Pesanan Makanan Filkom Day 2025</h1>
+    <form action="process.php" method="post"></form>
+        Silahkan Masukkan pesanan anda
+        <table border="1">
+        <tr>
+            <td><label for="studentName">Student Name </label></td>
+            <td><input type='text' input="studentName" id="studentName" maxlength="50" size="20"></td>
+        </tr>
+        
+        <tr>
+            <td><label for="studentNIM"></label>Student ID </td>
+            <td><input type='text' input="studentNIM" id="studentNIM" maxlength="20" size="20"></td>
+        </tr>
+        
+        <tr>
+            <td><label for="prodi">Select Prodi</label></td>
+            <td>
+            <input type='radio' input="prodi" id="prodi" value="I">Informatika <br>
+            <input type='radio' input="prodi" id="prodi" value="SI">Sistem Informasi <br>
+            <input type='radio' input="prodi" id="prodi" value="TI">Teknologi Informasi <br>
+            </td>
+        </tr>
+        
+        <!-- Jenis Kelamin -->
+        <tr>
+            <td><label for="gender">Your Gender</label></td>
+            <td>
+            <input type='checkbox' name="gender" id="gender" value="F">Female <br>
+            <input type='checkbox' name="gender" id="gender" value="M">Male <br>
+            </td>
+        </tr>
+        
+        <tr>
+            <td><label for="pesanFood">Request Food </label></td>
+            <td>
+            <input type="radio" nama="pesanFood" id="pesanFood" value="V">Vegetarian <br>
+            <input type="radio" nama="pesanFood" id="pesanFood" value="A">Ayam <br>
+            <input type="radio" nama="pesanFood" id="pesanFood" value="I">Ikan 
+            </td>
+        </tr>
+        </table>
+        <input type="Submit" value="send">
+        <input type="Reset" value="reset">
+    </body>
+</html>

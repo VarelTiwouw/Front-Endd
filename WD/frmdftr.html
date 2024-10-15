@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form UNKLAB</title>
+</head>
+<body>
+    <h1><b>UNKLAB Registration Form for New Student</b></h1>
+    <form action="">
+        <label for="">Registration Number</label>
+        <input type="text" maxlength="1" size="1">
+        <input type="text" maxlength="1" size="1">
+        <input type="text" maxlength="1" size="1">
+        <input type="text" maxlength="1" size="1">
+        <input type="text" maxlength="1" size="1">
+        <input type="text" maxlength="1" size="1">
+        <input type="text" maxlength="1" size="1">
+        <input type="text" maxlength="1" size="1">
+
+        <fieldset>
+            <legend>Personal Information</legend>
+            <table>
+                <tr>
+                    <td><label for="nama">Nama Lengkap</label></td>
+                    <td colspan="3">:<input type="text" id="nama" name="nama" maxlength="50" size="55"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="tempat_lahir">Tempat Lahir</label>
+                    </td>
+                    <td>
+                        :<input type="text" id="tempat_lahir" name="tempat_lahir">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Jenis Kelamin:</label></td>
+                    <td>
+                        <input type="radio" id="pria" name="jenis_kelamin" value="pria">
+                        <label for="pria">Pria</label>
+                        <input type="radio" id="wanita" name="jenis_kelamin" value="wanita">
+                        <label for="wanita">Wanita</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="tanggal_lahir">Tanggal Lahir:</label></td>
+                    <td><input type="text" id="tanggal_lahir" name="tanggal_lahir" placeholder="dd/mm/yyyy"></td>
+                </tr>
+                <tr>
+                    <td><label>Golongan Darah:</label></td>
+                    <td>
+                        <input type="radio" id="a" name="golongan_darah" value="A">
+                        <label for="a">A</label>
+                        <input type="radio" id="b" name="golongan_darah" value="B">
+                        <label for="b">B</label>
+                        <input type="radio" id="ab" name="golongan_darah" value="AB">
+                        <label for="ab">AB</label>
+                        <input type="radio" id="o" name="golongan_darah" value="O">
+                        <label for="o">O</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="suku">Suku:</label></td>
+                    <td><input type="text" id="suku" name="suku"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email:</label></td>
+                    <td><input type="email" id="email" name="email"></td>
+                </tr>
+                <tr>
+                    <td><label for="telepon">Nomor Telepon:</label></td>
+                    <td><input type="text" id="telepon" name="telepon"></td>
+                </tr>
+                <tr>
+                    <td><label for="ponsel">Nomor HP:</label></td>
+                    <td><input type="text" id="ponsel" name="ponsel"></td>
+                </tr>
+                <tr>
+                    <td><label for="status">Status:</label></td>
+                    <td>
+                        <select id="status" name="status">
+                            <option value="single">Lajang</option>
+                            <option value="menikah">Menikah</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="agama">Agama:</label></td>
+                    <td>
+                        <select id="agama" name="agama">
+                            <option value="islam">Islam</option>
+                            <option value="kristen">Kristen</option>
+                            <option value="katolik">Katolik</option>
+                            <option value="hindu">Hindu</option>
+                            <option value="buddha">Buddha</option>
+                            <option value="konghucu">Konghucu</option>
+                            <option value="advent">Advent Hari Ketujuh</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="alamat">Alamat Rumah:</label></td>
+                    <td><textarea id="alamat" name="alamat" rows="4" cols="50"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="kode_pos">Kode Pos:</label></td>
+                    <td><input type="text" id="kode_pos" name="kode_pos"></td>
+                </tr>
+            </table>
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend>School Information</legend>
+            <table>
+                <tr>
+                    <td><label>High school's Name</label></td>
+                    <td colspan="3">:<input type="text" id="nama" name="nama" maxlength="50" size="55"></td>
+                </tr>
+                <tr>
+                    <td><label>Program</label></td>
+                    <td colspan="3">:<input type="text" id="nama" name="nama" maxlength="20" size="20"></td>
+                </tr>
+                <tr>
+                    <td><label for="alamat">Alamat Rumah:</label></td>
+                    <td><textarea id="alamat" name="alamat" rows="4" cols="50"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="kode_pos">Kode Pos</label></td>
+                    <td>:<input type="text" id="kode_pos" name="kode_pos"></td>
+                </tr>
+            </table>
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend>Parent's Information</legend>
+            <table>
+                <tr>
+                    <td><label>Father's Name</label></td>
+                    <td colspan="3">:<input type="text" id="nama" name="nama" maxlength="50" size="55"></td>
+                </tr>
+                <tr>
+                    <td><label>Mobile Number</label></td>
+                    <td>:<input type="number" id="nama" name="nama" maxlength="20" size="20"></td>
+                </tr>
+                <tr>
+                    <td><label>Email</label></td>
+                    <td>:<input type="email" id="nama" name="nama" maxlength="20" size="20"></td>
+                </tr>
+                <tr>
+                    <td><label for="status">Status :</label></td>
+                    <td>
+                        <select id="status" name="status">
+                            <option value="single">Elementary</option>
+                            <option value="menikah">Junior High School</option>
+                            <option value="menikah">High School</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr></tr>
+                    <td><label for="status">Religion :</label></td>
+                    <td>
+                        <select id="status" name="status">
+                            <option value="single">Kristen</option>
+                            <option value="menikah">Islam</option>
+                            <option value="menikah">Advent</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr></tr>
+                    <td><label>Mother's Name</label></td>
+                    <td colspan="3">:<input type="text" id="nama" name="nama" maxlength="50" size="55"></td>
+                </tr>
+                <tr>
+                    <td><label>Mobile Number</label></td>
+                    <td>:<input type="number" id="nama" name="nama" maxlength="20" size="20"></td>
+                </tr>
+                <tr>
+                    <td><label>Email</label></td>
+                    <td>:<input type="email" id="nama" name="nama" maxlength="20" size="20"></td>
+                </tr>
+                <tr>
+                    <td><label for="status">Status :</label></td>
+                    <td>
+                        <select id="status" name="status">
+                            <option value="single">Elementary</option>
+                            <option value="menikah">Junior High School</option>
+                            <option value="menikah">High School</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr></tr>
+                    <td><label for="status">Religion :</label></td>
+                    <td>
+                        <select id="status" name="status">
+                            <option value="single">Kristen</option>
+                            <option value="menikah">Islam</option>
+                            <option value="menikah">Advent</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend>Parent's Carer's Information</legend>
+            <table>
+                <tr>
+                    <td><label>Full Name</label></td>
+                    <td colspan="3">:<input type="text" id="nama" name="nama" maxlength="50" size="55"></td>
+                </tr>
+                <tr>
+                    <td><label>Full Name</label></td>
+                    <td colspan="3">:<input type="text" id="nama" name="nama" maxlength="20" size="20"></td>
+                </tr>
+                <tr>
+                    <td><label>Home Phone Number</label></td>
+                    <td>:<input type="number" id="nama" name="nama" maxlength="20" size="20"></td>
+                </tr>
+                <tr>
+                    <td><label>Email</label></td>
+                    <td>:<input type="email" id="nama" name="nama" maxlength="20" size="20"></td>
+                </tr>
+                <tr>
+                    <td><label for="status">Status :</label></td>
+                    <td>
+                        <select id="status" name="status">
+                            <option value="single">Elementary</option>
+                            <option value="menikah">Junior High School</option>
+                            <option value="menikah">High School</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr></tr>
+                    <td><label for="status">Religion :</label></td>
+                    <td>
+                        <select id="status" name="status">
+                            <option value="single">Kristen</option>
+                            <option value="menikah">Islam</option>
+                            <option value="menikah">Advent</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <input type="checkbox"> Apakah anda Telah mengisi Formulir sesuai dengan ketentuan yang telah berlaku
+        <br><br>
+        <label for="">Airmadidi,</label>
+        <input type="date">
+        <br><br>
+        <button>Reset Form</button><button>Register</button>
+    </form>
+</body>
+</html>

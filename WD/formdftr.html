@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNKLAB Registration Form for New Student</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        td, th {
+            padding: 8px;
+            border: 1px solid #ccc;
+            vertical-align: top;
+        }
+        .section-title {
+            background-color: #f2f2f2;
+            padding: 8px;
+            font-weight: bold;
+        }
+        input[type="text"], input[type="email"], input[type="date"], select {
+            width: 100%;
+            padding: 5px;
+            margin: 4px 0;
+            box-sizing: border-box;
+        }
+        input[type="radio"] {
+            margin: 0 5px;
+        }
+        .submit-container {
+            text-align: right;
+            padding-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>UNKLAB Registration Form for New Student</h2>
+            <td>Registration Number</td>
+            <td colspan="3">
+                <input type="" name="reg_number" maxlength="12">
+            </td>
+        
+        <form action="#" method="post">
+            <!-- Personal Information -->
+            <table>
+                <tr>
+                    <td colspan="4" class="section-title">Personal Information</td>
+                </tr>
+                <tr>
+                    <td>Full Name :</td>
+                    <td><input type="text" name="full_name"></td>
+                    <td>Date of Birth</td>
+                    <td><input type="date" name="dob"></td>
+                </tr>
+                <tr>
+                    <td>Birthplace</td>
+                    <td><input type="text" name="birthplace"></td>
+                    <td>Blood Type</td>
+                    <td>
+                        <select name="blood_type">
+                            <option value="A">A</option>
+                            <option value="B">B</option>
+                            <option value="AB">AB</option>
+                            <option value="O">O</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>
+                        <input type="radio" name="gender" value="Male"> Male
+                        <input type="radio" name="gender" value="Female"> Female
+                    </td>
+                    <td>Status</td>
+                    <td>
+                        <select name="status">
+                            <option value="Single">Single</option>
+                            <option value="Married">Married</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Telephone Number</td>
+                    <td><input type="text" name="telephone"></td>
+                    <td>Mobile Number</td>
+                    <td><input type="text" name="mobile"></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input type="email" name="email"></td>
+                    <td>Religion</td>
+                    <td>
+                        <select name="religion">
+                            <option value="Seventh Day Adventist">Seventh Day Adventist</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Home Address</td>
+                    <td colspan="3"><input type="text" name="home_address"></td>
+                </tr>
+                <tr>
+                    <td>Postal Code</td>
+                    <td><input type="text" name="postal_code"></td>
+                </tr>
+            </table>
+
+            <!-- School Information -->
+            <table>
+                <tr>
+                    <td colspan="4" class="section-title">School Information</td>
+                </tr>
+                <tr>
+                    <td>High School's Name</td>
+                    <td><input type="text" name="high_school_name"></td>
+                    <td>Telephone Number</td>
+                    <td><input type="text" name="school_telephone"></td>
+                </tr>
+                <tr>
+                    <td>Program</td>
+                    <td colspan="3"><input type="text" name="program"></td>
+                </tr>
+                <tr>
+                    <td>School Address</td>
+                    <td colspan="3"><input type="text" name="school_address"></td>
+                </tr>
+                <tr>
+                    <td>Postal Code</td>
+                    <td><input type="text" name="school_postal_code"></td>
+                </tr>
+            </table>
+
+            <!-- Parent's Information -->
+            <table>
+                <tr>
+                    <td colspan="4" class="section-title">Parent's Information</td>
+                </tr>
+                <tr>
+                    <td>Father's Name</td>
+                    <td><input type="text" name="father_name"></td>
+                    <td>Email</td>
+                    <td><input type="email" name="father_email"></td>
+                </tr>
+                <tr>
+                    <td>Mobile Number</td>
+                    <td><input type="text" name="father_mobile"></td>
+                    <td>Religion</td>
+                    <td>
+                        <select name="father_religion">
+                            <option value="SDA">SDA</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Education</td>
+                    <td colspan="3">
+                        <select name="father_education">
+                            <option value="Elementary">Elementary</option>
+                            <option value="Secondary">Secondary</option>
+                            <option value="High School">High School</option>
+                            <option value="University">University</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Mother's Name</td>
+                    <td><input type="text" name="mother_name"></td>
+                    <td>Email</td>
+                    <td><input type="email" name="mother_email"></td>
+                </tr>
+                <tr>
+                    <td>Mobile Number</td>
+                    <td><input type="text" name="mother_mobile"></td>
+                    <td>Religion</td>
+                    <td>
+                        <select name="mother_religion">
+                            <option value="SDA">SDA</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Education</td>
+                    <td colspan="3">
+                        <select name="mother_education">
+                            <option value="Elementary">Elementary</option>
+                            <option value="Secondary">Secondary</option>
+                            <option value="High School">High School</option>
+                            <option value="University">University</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+
+            <!-- Parent's Career Information -->
+            <table>
+                <tr>
+                    <td colspan="4" class="section-title">Parent Career's Information</td>
+                </tr>
+                <tr>
+                    <td>Full Name</td>
+                    <td><input type="text" name="career_full_name"></td>
+                    <td>Email</td>
+                    <td><input type="email" name="career_email"></td>
+                </tr>
+                <tr>
+                    <td>Family Relation</td>
+                    <td>
+                        <select name="family_relation">
+                            <option value="Elementary">Elementary</option>
+                            <option value="Secondary">Secondary</option>
+                            <option value="High School">High School</option>
+                        </select>
+                    </td>
+                    <td>Religion</td>
+                    <td>
+                        <select name="career_religion">
+                            <option value="SDA">SDA</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Home Phone Number</td>
+                    <td><input type="text" name="career_phone"></td>
+                    <td>Mobile Number</td>
+                    <td><input type="text" name="career_mobile"></td>
+                </tr>
+            </table>
+
+            <!-- Declaration and Submission -->
+            <table>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="declaration"> I hereby state that all information on this form is complete and true.
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="submit-container">
+                            <input type="submit" value="Submit">
+                            <input type="reset" value="Reset">
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
